@@ -1,0 +1,62 @@
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Unsupervised learning for joint segmentation and part-of-speech tagging</title>
+</head>
+
+<h1>Unsupervised learning for joint segmentation and part-of-speech tagging</h1>
+
+<p>
+<b>Supervisors</b><br/>
+Yue Zhang and Stephen Clark
+</p>
+
+
+<p>
+<b>Introduction</b><br/>
+
+Joint word segmentation and POS-tagging is the problem of solving word
+segmentation and part-of-speech tagging simultaneously. By reducing
+error propagation and allowing POS information to help word
+segmentation, both segmentation and overall tagging could be improved.
+There has been some recent research on joint word segmentation and POS
+tagging, reporting competitive accuracies on the Chinese Treebank. </p><p>
+
+The current approach for joint segmentation and POS-tagging is mainly
+supervised. A set of manually annotated sentences from CTB are used to
+train a system, and then another set of texts from the same treebank
+are used to test the accuracies. Supervised learning is expensive: it
+requires much human labour. On the other hand, there are abundant
+unannotated text available. Unsupervised and semi-supervised
+approaches make use of these free resources, and improve the
+accuracies. They have been little explored for joint segmentation and
+POS-tagging so far.</p><p>
+
+Two existing approaches can be applied to joint segmentation and
+POS-tagging, and achieve semi-supervised learning. First, unsupervised
+character clustering can be performed on a large set of raw text. The
+resulting character classes can be used as a feature in a supervised
+segmentor / tagger. Results have shown that this method improves both
+the segmentation accuracy.</p><p>
+
+Second, self-training can be performed. The idea is to use a trained
+system to segment and tag raw text. From the output, some statistical
+information can be collected. When processed properly, this
+information can be filtered / organized into features. Self-training
+has been show to improve accuracies for a variety of NLP tasks.
+</p>
+
+<p><b>Requirements</b><br/>
+
+Basic knowledge of C++. (A supervised system in cpp will be provided)</p>
+
+<p><b>An intuitive example</b><br/>
+
+Given the input sentence 上海浦东开发与法制建设同步, the existing system will produce the tagged output 上海_NR 浦东_NR 开发_NN 与_CC 法制_NN 建设_NN 同步_VV. The output is a segmented and part-of-speech tagged sentence, where each word is separated from its POS by '_' and NR, NN, CC and VV refer to proper noun, noun, conjunctive and verb, respectively. The above output is correct. However, given the sentence 玩3D游戏有必要搞独立显卡么？, the output of the sytem is 玩3D_NR 游戏_NN 有_VE 必要_NN 搞_VV 独立_JJ 显卡么_NN ？_PU, where 玩3D and 显卡么 has segmentation and POS errors. The reason for the errors are largely because the training data was in newspaper text, while the test data was from computer forums. The semi-supervised system should improve the performance of the system in such unknown domains. </p>
+
+<p><b>References</b><br/>
+
+Yue Zhang and Stephen Clark. Chinese Segmentation Using a Word-based Perceptron Algorithm. In proceedings of ACL 2007. Prague, Czech Republic. June.<br/>
+Yue Zhang and Stephen Clark. Joint Word Segmentation and POS Tagging Using a Single Perceptron. In proceedings of ACL 2008. Ohio, USA. June.<br/>
+Yue Zhang and Stephen Clark. A Fast Decoder for Joint Word Segmentation and POS-tagging Using a Single Discriminative Model In proceedings of EMNLP 2010. Massachusetts, USA. October.<br/>
+
+</p>

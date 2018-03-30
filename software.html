@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>Software | Yue Zhang</title>
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-responsive.min.css">
+<style type="text/css">
+.nav { }
+.nav li { float: left; width: 110px; }
+.container { background-color: #ffffff; padding: 30px; }
+.content { padding: 30px; }
+body, h1, h2, h3, h4 { font-family: "Trebuchet MS","Helvetica Neue",Arial,Helvetica,sans-serif,"Georgia";}
+body { background-color: #eeeeee; }
+header { width: 100%; }
+blockquote p { font-size: 14px; }
+</style>
+<body>
+
+<div class="table-bordered container">
+  <header class="header">
+    <div style="padding-bottom: 40px" class="row">
+      <div style="padding-top: 30px" class="col-md-10">
+        <div class="row">
+          <div class="col-md-12"><h2 class="pull-right">Yue Zhang</h2></div>
+        </div>
+        <p></p>
+        <div class="row"><div class="col-md-12"><span class="pull-right">Phone: +65 64994516</span></div></div>
+        <div class="row"><div class="col-md-12"><span class="pull-right">Fax: +65 67705161</span></div></div>
+        <div class="row"><div class="col-md-12"><span class="pull-right">Email: yue_zhang@sutd.edu.sg</span></div></div>
+      </div>
+      <div class="col-md-2">
+        <img class="pull-right img-responsive img-thumbnail" src="yue_zhang.jpg" />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <ul class="nav">
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="publication.html">Publications</a></li>
+          <li><a href="software.html">Software</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <div class="content">
+    <div class="row">
+      <div class="col-md-12">
+        <h4>ZPar</h4>
+        A statistical multi-language parser, with language-specific support for Chinese and English.
+        ZPar includes a specialized Chinese parser, and gives state-of-the-art speed and accuracies for both Chinese and English on standard Penn Chinese Treebank and Penn Treebank data.
+        It provides integrated systems that perform word segmentation, part-of-speech tagging, dependency parsing and phrase structure parsing.
+        ZPar has also been used for the syntactic analysis of Romanian, French and other languages.
+        ZPar is fast, processing above 50 sentences per second using the standard Penn Teebank (Wall Street Journal) data.
+        
+        <br />
+        [<a href="https://frcchang.github.io/doc/index.html">Documentation</a>] | [<a href="https://github.com/frcchang/zpar/releases">Download</a>]
+
+        <h5>Extensions:</h5>
+        <ul>
+          <li><strong>ViZPar</strong> (by <em>Miguel Ballesteros</em> and others): ViZPar is a tool that enhances the usability of ZPar by supporting parameter selection and output visualization. 
+            ViZPar allows manual feature selection, which makes the tool useful for people interested in obtaining the best parser through feature engineering, provided that the feature templates included in ZPar are optimized for English and Chinese. 
+            ViZPar is designed for both constituent and dependency analysis. 
+            <br />
+            [<a href="http://www.taln.upf.edu/content/resources/635">Project Homepage</a>] 
+            </li>
+          <li><strong>python-zpar</strong> (by <em>Nitin Madnani</em> and others): python-zpar is a python wrapper around the ZPar parser. 
+            python-zpar not only provides a simply python wrapper but also provides an XML-RPC ZPar server to make batch-processing of large files easier.
+            <br />
+            [<a href="https://github.com/EducationalTestingService/python-zpar">Project Homepage</a>]
+            </li>
+        </ul>
+        
+        If you use this system in your paper, please cite the following paper.
+<pre>
+@article{Zhang:2011:SPU:1970420.1970425,
+  author = {Zhang, Yue and Clark, Stephen},
+  title = {Syntactic Processing Using the Generalized Perceptron and Beam Search},
+  journal = {Comput. Linguist.},
+  issue_date = {March 2011},
+  volume = {37},
+  number = {1},
+  month = mar,
+  year = {2011},
+  issn = {0891-2017},
+  pages = {105--151},
+  numpages = {47},
+  publisher = {MIT Press},
+  address = {Cambridge, MA, USA},
+}
+</pre>
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-md-12">
+        <h4>ZGen</h4>
+        ZGen is a linearization system that constructs natural lnaguage sentences from bags of words, given optional input syntactic constraints.
+        Depending on the amount of input constraints, ZGen can perform free ordering, partial tree linearization and full tree linearization.
+        <br />
+        [<a href="https://github.com/SUTDNLP/ZGen">Download</a>]
+      </div>
+    </div>
+    <hr />
+    <div class="row">
+      <div class="col-md-12">
+        <h4>ZORE</h4>
+        ZORE is an open information extraction system for Chinese.  
+
+        <br />
+        [<a href="https://sourceforge.net/projects/zore/">Download</a>]
+
+        <br />
+        If you use this system in your paper, please cite our EMNLP 2014 paper.
+        <pre>
+Likun Qiu and Yue Zhang, ZORE: A Syntax-based System for Chinese Open Relation Extraction, In Proceedings of EMNLP 2014.
+</pre>        
+      </div>
+    </div>
+    <hr />
+  </div>
+  <footer class="text-center">
+  </footer>
+</div>
+</body></html>
