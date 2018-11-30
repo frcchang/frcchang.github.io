@@ -1,0 +1,6 @@
+@InProceedings{gary_icdmw_18,
+  author =  "Gary Shing Wee Goh, Jing Yu Koh, Yue Zhang",
+  title =  "Twitter-informed Crowd Flow Prediction",
+  booktitle =  "Proceedings of the 2018 IEEE International Conference on Data Mining Workshops (ICDMW)",
+  year =  "2018"
+}
