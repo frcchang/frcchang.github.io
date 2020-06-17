@@ -1,0 +1,13 @@
+@ARTICLE{9082853,
+  author={Y. {Zhang} and Y. {Wang} and J. {Yang}},
+  journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
+  title={Lattice LSTM for Chinese Sentence Representation}, 
+  year={2020},
+  volume={28},
+  number={},
+  pages={1506-1519},
+  abstract={Words provide a useful source of information for Chinese NLP, and word segmentation has been taken as a pre-processing step for most downstream tasks. For many NLP tasks, however, word segmentation can introduce noise and lead to error propagation. The rise of neural representation learning models allows sentence-level semantic information to be collected from characters directly. As a result, it is an empirical question whether a fully character-based model should be used instead of first performing word segmentation. We investigate a neural representation that simultaneously encodes character and word information without the need for segmentation. In particular, candidate words are found in a sentence by matching with a pre-defined lexicon. A lattice structured LSTM is used to encode the resulting word-character lattice, where gate vectors are used to control information flow through words, so that the more useful words can be automatically identified by end-to-end training. We compare the performance of the resulting lattice LSTM and baseline sequence LSTM structures over both character sequences and automatically segmented word sequences. Results on NER show that the character-word lattice model can significantly improve the performance. In addition, as a general sentence representation architecture, character-word lattice LSTM can also be used for learning contextualized representations. To this end, we compare lattice LSTM structure with its sequential LSTM counterpart, namely ELMo. Results show that our lattice version of ELMo gives better language modeling performances. On Chinese POS-tagging, chunking and syntactic parsing tasks, the resulting contextualized Chinese embeddings also give better performance than ELMo trained on the same data.},
+  keywords={Lattices;Task analysis;Bridges;Urban areas;Rivers;Training;Labeling;Lattice LSTM;NER;language modeling;contextualize representation},
+  doi={10.1109/TASLP.2020.2991544},
+  ISSN={2329-9304},
+  month={},}
