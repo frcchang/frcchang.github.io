@@ -1,0 +1,14 @@
+@article{LIU2022102836,
+title = {End-to-end event factuality prediction using directional labeled graph recurrent network},
+journal = {Information Processing & Management},
+volume = {59},
+number = {2},
+pages = {102836},
+year = {2022},
+issn = {0306-4573},
+doi = {https://doi.org/10.1016/j.ipm.2021.102836},
+url = {https://www.sciencedirect.com/science/article/pii/S0306457321003083},
+author = {Xiao Liu and Heyan Huang and Yue Zhang},
+keywords = {Event factuality prediction, Event Anchor Detection, Joint modeling, Graph neural network, End-to-end, Syntactic information graph},
+abstract = {Event factuality prediction is the task of assessing the degree to which an event mentioned in a sentence has happened. However, existing methods usually stack encoders to make factuality predictions given the gold positions of anchor words. In addition, the frequently used encoders, such as bidirectional LSTMS and graph convolution networks, ignore the directional labeled syntactic information while modeling the context. To fill the gap when facing plain text without identifying event anchor words in advance, we investigate the task of end-to-end EFP in this paper. We present the Directional Labeled Graph Recurrent Network, denoted as DLGRN, to solve Event Anchor Detection and Factuality Induction in a multi-task framework. Specifically, we represent sentences as syntactic information graphs. Then, to incorporate directional labeled information, we design edge-tied weights and edge-aware attention mechanism on top of a graph-based recurrently message passing encoder. We further propose to utilize multi-task learning to jointly model Event Anchor Detection and Factuality Induction by optimizing a mixed-objective learning function. We use four widely used factuality prediction benchmarks (i.e., FactBank, Meantime, UW, and UDS-IH2) to evaluate our framework. Our framework achieves state-of-the-art results in the two subtasks, averagely decreasing 17.12% MAE and raising 5.40% Pearson correlation r against the best baseline. In addition, experimental results show that our framework can capture the overall factuality score distributions, and incorporating directional and labeled syntactic information in EFP achieves better performances than the baselines.}
+}
