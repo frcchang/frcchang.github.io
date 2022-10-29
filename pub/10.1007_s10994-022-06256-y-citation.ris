@@ -1,0 +1,13 @@
+TY  - JOUR
+AU  - Jia, Chen
+AU  - Zhang, Yue
+PY  - 2022
+DA  - 2022/10/28
+TI  - Meta-learning the invariant representation for domain generalization
+JO  - Machine Learning
+AB  - Domain generalization studies how to generalize a machine learning model to unseen distributions. Learning invariant representation across different source distributions has been shown high effectiveness for domain generalization. However, the intrinsic possibility of overfitting in source domains can limit the generalization of invariance when faced with a target domain with large discrepancy to the source domains. To address this problem, we propose a meta-learning algorithm via bilevel optimization for domain generalization, where the inner-loop objective aims to minimize the discrepancy across different source domains while the outer-loop objective aims to minimize the discrepancy between source domains and a potential target domain. We show from a geometric perspective that the proposed algorithm can improve out-of-domain robustness for invariance learning. Empirically, we evaluate on five datasets and achieve the best results among a range of strong domain generalization baselines.
+SN  - 1573-0565
+UR  - https://doi.org/10.1007/s10994-022-06256-y
+DO  - 10.1007/s10994-022-06256-y
+ID  - Jia2022
+ER  - 
