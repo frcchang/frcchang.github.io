@@ -1,0 +1,15 @@
+@article{10.1145/3575803,
+author = {Di, Donglin and Song, Xianyang and Zhang, Weinan and Zhang, Yue and Wang, Fanglin},
+title = {Building Dialogue Understanding Models for Low-Resource Language Indonesian from Scratch},
+year = {2022},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+issn = {2375-4699},
+url = {https://doi.org/10.1145/3575803},
+doi = {10.1145/3575803},
+abstract = {Using off-the-shelf resources from resource-rich languages to transfer knowledge to low-resource languages has received a lot of attention. The requirements of enabling the model to achieve the reliable performance, including the scale of required annotated data and the effective framework, are not well guided. To address the first question, we empirically investigate the cost-effectiveness of several methods for training intent classification and slot-filling models from scratch in Indonesia (ID) using English data. Confronting the second challenge, we propose a Bi-Confidence-Frequency Cross-Lingual transfer framework (BiCF), which consists of “BiCF Mixing”, “Latent Space Refinement” and “Joint Decoder”, respectively, to overcome the lack of low-resource language dialogue data. BiCF Mixing based on the word-level alignment strategy generates code-mixed data by utilizing the importance-frequency and translating-confidence. Moreover, Latent Space Refinement trains a new dialogue understanding model using code-mixed data and word embedding models. Joint Decoder based on Bidirectional LSTM (BiLSTM) and Conditional Random Field (CRF) is used to obtain experimental results of intent classification and slot-filling. We also release a large-scale fine-labeled Indonesia dialogue dataset (ID-WOZ) and ID-BERT for experiments. BiCF achieves 93.56\% and 85.17\% (F1 score) on intent classification and slot filling, respectively. Extensive experiments demonstrate that our framework performs reliably and cost-efficiently on different scales of manually annotated Indonesian data.},
+note = {Just Accepted},
+journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},
+month = {dec},
+keywords = {dialogue datasets, slot-filling, intent classification, Indonesian}
+}

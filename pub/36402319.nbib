@@ -1,0 +1,98 @@
+PMID- 36402319
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20221216
+LR  - 20221221
+IS  - 1879-1026 (Electronic)
+IS  - 0048-9697 (Linking)
+VI  - 859
+IP  - Pt 1
+DP  - 2023 Feb 10
+TI  - Universal machine-learning algorithm for predicting adsorption performance of 
+      organic molecules based on limited data set: Importance of feature description.
+PG  - 160228
+LID - S0048-9697(22)07328-4 [pii]
+LID - 10.1016/j.scitotenv.2022.160228 [doi]
+AB  - Adsorption of organic molecules from aqueous solution offers a simple and 
+      effective method for their removal. Recently, there have been several attempts to 
+      apply machine learning (ML) for this problem. To this end, polyparameter linear 
+      free energy relationships (pp-LFERs) were employed, and poor prediction results 
+      were observed outside model applicability domain of pp-LFERs. In this study, we 
+      improved the applicability of ML methods by adopting a chemical-structure (CS) 
+      based approach. We used the prediction of adsorption of organic molecules on 
+      carbon-based adsorbents as an example. Our results show that this approach can 
+      fully differentiate the structural differences between any organic molecules, 
+      while providing significant information that is relevant to their interaction 
+      with the adsorbents. We compared two CS feature descriptors: 3D-coordination and 
+      simplified molecular-input line-entry system (SMILES). We then built CS-ML models 
+      based on neural networks (NN) and extreme gradient boosting (XGB). They all 
+      outperformed pp-LFERs based models and are capable to accurately predict 
+      adsorption isotherm of isomers with similar physiochemical properties such as 
+      chiral molecules, even though they are trained with achiral molecules and 
+      racemates. We found for predicting adsorption isotherm, XGB shows better 
+      performance than NN, and 3D-coordinations allow effective differentiation between 
+      organic molecules.
+CI  - Copyright © 2022 Elsevier B.V. All rights reserved.
+FAU - Huang, Chaoyi
+AU  - Huang C
+AD  - Division of Environment and Resources, College of Engineering, Westlake 
+      University, Hangzhou, Zhejiang 310024, China.
+FAU - Gao, Wenyang
+AU  - Gao W
+AD  - Division of Artificial Intelligence and Data Science, College of Engineering, 
+      Westlake University, Hangzhou, Zhejiang 310024, China.
+FAU - Zheng, Yingdie
+AU  - Zheng Y
+AD  - Division of Environment and Resources, College of Engineering, Westlake 
+      University, Hangzhou, Zhejiang 310024, China.
+FAU - Wang, Wei
+AU  - Wang W
+AD  - Division of Environment and Resources, College of Engineering, Westlake 
+      University, Hangzhou, Zhejiang 310024, China.
+FAU - Zhang, Yue
+AU  - Zhang Y
+AD  - Division of Artificial Intelligence and Data Science, College of Engineering, 
+      Westlake University, Hangzhou, Zhejiang 310024, China.
+FAU - Liu, Kai
+AU  - Liu K
+AD  - Division of Environment and Resources, College of Engineering, Westlake 
+      University, Hangzhou, Zhejiang 310024, China. Electronic address: 
+      liukai@westlake.edu.cn.
+LA  - eng
+PT  - Journal Article
+DEP - 20221117
+PL  - Netherlands
+TA  - Sci Total Environ
+JT  - The Science of the total environment
+JID - 0330500
+RN  - 059QF0KO0R (Water)
+RN  - 7440-44-0 (Carbon)
+SB  - IM
+MH  - Adsorption
+MH  - *Machine Learning
+MH  - *Water/chemistry
+MH  - Carbon
+MH  - Algorithms
+OTO - NOTNLM
+OT  - Adsorption isotherm
+OT  - Artificial intelligence
+OT  - Organic contaminants
+OT  - Water treatment
+COIS- Declaration of competing interest The authors declare the following financial 
+      interests/personal relationships which may be considered as potential competing 
+      interests: Kai Liu reports financial support was provided by Zhejiang Provincial 
+      Natural Science Foundation of China.
+EDAT- 2022/11/20 06:00
+MHDA- 2022/12/15 06:00
+CRDT- 2022/11/19 19:26
+PHST- 2022/09/19 00:00 [received]
+PHST- 2022/11/09 00:00 [revised]
+PHST- 2022/11/12 00:00 [accepted]
+PHST- 2022/11/20 06:00 [pubmed]
+PHST- 2022/12/15 06:00 [medline]
+PHST- 2022/11/19 19:26 [entrez]
+AID - S0048-9697(22)07328-4 [pii]
+AID - 10.1016/j.scitotenv.2022.160228 [doi]
+PST - ppublish
+SO  - Sci Total Environ. 2023 Feb 10;859(Pt 1):160228. doi: 
+      10.1016/j.scitotenv.2022.160228. Epub 2022 Nov 17.
